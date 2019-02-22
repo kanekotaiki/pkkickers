@@ -1,0 +1,115 @@
+
+body {
+  background-image: url("toppage.png") ;
+  background-repeat: no-repeat;
+   background-size: cover;
+}
+// PC表記のcss
+@media (min-width: 769px) {
+   .sp {
+     display: none;
+   }
+   .asobikata {
+     width: 100%;
+   }
+  .tops {
+    font-family: 'HoeflerText-Black',sans-serif;
+    .apuri_title {
+      width: 50%;
+      margin: auto;
+      text-align: center;
+      P {
+        width: 100%;
+        font-size: 80px;
+        padding: 130px 0;
+      }
+    }
+    .rule {
+      width: 70%;
+      margin: auto;
+      margin-top: 100px;
+      font-size: 0;
+      text-align: center;
+      .start {
+        width:33%;
+        display: inline-block;
+        img {
+          width: 100%;
+        }
+      }
+      .sp {
+        display: none;
+      }
+      .start2 {
+        width:33%;
+        display: inline-block;
+        img {
+          width: 100%;
+        }
+      }
+      .start3 {
+        width:33%;
+        display: inline-block;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+// SP表記のcss
+@media (max-width: 768px) {
+    .pc {
+      display: none;
+    }
+    .asobikata {
+     width: 100%;
+   }
+    .tops {
+    font-family: 'HoeflerText-Black',sans-serif;
+    .apuri_title {
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      P {
+        width: 100%;
+        font-size: 50px;
+        padding: 100px 0;
+      }
+    }
+    .rule {
+      width: 100%;
+      margin: 70px auto 50px auto;
+      font-size: 0;
+      text-align: center;
+      vertical-align: top;
+      .start {
+        width:33%;
+        display: inline-block;
+        img {
+          width: 100%;
+           height: 170px;
+        }
+      }
+      .pc {
+        display: none;
+      }
+      .start2 {
+        width:33%;
+        display: inline-block;
+        img {
+          width: 100%;
+           height: 170px;
+        }
+      }
+      .start3 {
+        width:33%;
+        display: inline-block;
+        img {
+          width: 100%;
+          height: 170px;
+        }
+      }
+    }
+  }
+}
