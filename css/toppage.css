@@ -1,5 +1,5 @@
 body {
-  background-image: url("toppage.png");
+  background-image: url("../img/toppage.png");
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -18,8 +18,8 @@ body {
       text-align: center; }
       .tops .apuri_title P {
         width: 100%;
-        font-size: 80px;
-        padding: 130px 0; }
+        font-size: 73px;
+        padding: 150px 0 130px 0; }
     .tops .rule {
       width: 70%;
       margin: auto;

@@ -1,0 +1,411 @@
+body {
+  background-color: #42b89f;
+  font-family: 'HoeflerText-Black',sans-serif;
+}
+@media (min-width: 426px) {
+  .aite {
+    width: 100%;
+    .aitenonaka {
+      width: 90%;
+      margin: auto;
+      height: 150px;
+      border-bottom: solid thin white;
+    }
+    .goal {
+      width:60%;
+      height: 150px;
+      margin: auto;
+      margin-top: 5px;
+      display: block;
+    }
+    .goalkeepar {
+      width:20%;
+      position: absolute;
+      top: 2%;
+      left:40%;
+    }
+    .goalkeepar-left {
+      width:20%;
+      position: absolute;
+      top: 2%;
+      left:20%;
+    }
+    .goalkeepar-right {
+      width:20%;
+      position: absolute;
+      top: 2%;
+      left:58%;
+    }
+  }
+  .eria {
+    width: 75%;
+    height: 100px;
+    border-left: solid thin white;
+    border-right: solid thin white;
+    border-bottom: solid thin white;
+    margin: auto;
+    text-align: center;
+    .ball-frontleft {
+      position: absolute;
+      left: 24%;
+    }
+    .ball-front {
+      position: absolute;
+      left: 42%;
+    }
+    .ball-frontright {
+      position: absolute;
+      left: 58%;
+    }
+    
+  }
+  .music {
+    width: 100%;
+    margin-top: 1%;
+    font-size: 65px;
+    text-align: center;
+  }
+  .ball {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    .ball-left {
+       width: 10%;
+      display: inline-block;
+      position: absolute;
+      left: 25%;
+      position: absolute;
+      bottom: 21%;
+    }
+    .ball-middle {
+      width: 10%;
+      display: inline-block;
+      position: absolute;
+      left: 44%;
+      position: absolute;
+      bottom: 21%;
+ 
+    }
+    .ball-right {
+       width: 10%;
+      display: inline-block;
+      position: absolute;
+      left: 64%;
+      position: absolute;
+      bottom: 21%;
+    }
+  }
+  .modoru {
+    background-color: #e64461;
+    display: inline-block;
+    padding:20px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    text-align: center;
+    p {
+      margin: 0;
+    }
+  }
+  .scoa {
+    .sp {
+    display: none;
+  }
+    width: 30%;
+    display: inline-block;
+  }
+  .pc {
+    position: absolute;
+    right: 12%;
+    width: 10%;
+  
+  }
+  .pc1 {
+    position: absolute;
+    right: 1%;
+    width: 10%;
+    height: 5%;
+  }
+  .scoa1 {
+    width: 100%;
+    background-color: #42b89f;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    p {
+      display: inline-block;
+      font-size: 12px;
+      padding: 25% 0;
+      margin: 0;
+    }
+  }
+  .scoa2 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    display: inline-block;
+     vertical-align: top;
+     .ten1 {
+       font-size: 100px;
+       text-align: center;
+     }
+  }
+  .scoa3 {
+     width: 100%;
+   background-color: #42b89f;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5%;
+    vertical-align: top;
+    p {
+      display: inline-block;
+      font-size: 12px;
+      padding: 25% 0;
+      margin: 0;
+    }
+  }
+  .scoa4 {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      background-color: white;
+      display: inline-block;
+      .ten2 {
+       font-size: 100px;
+       text-align: center;
+     }
+    }
+  .zibunn {
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    bottom: 1%;
+    left: 24%;
+    img {
+      width: 60%;
+      display: inline-block;
+    }
+    .kakoi-left {
+      width: 30%;
+      margin-left: 3%;
+      display: inline-block;
+    }
+    .kakoi-middle {
+      display: inline-block;
+       width: 30%;
+    }
+    .kakoi-right {
+      display: inline-block;
+       width: 30%;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .pc {
+    display: none;
+  }
+    .pc1 {
+    display: none;
+  }
+  .aite {
+    width: 100%;
+    margin-top: 13%;
+    .aitenonaka {
+      width: 100%;
+      height: 100px;
+      border-bottom: solid thin white;
+      .goal {
+        width:90%;
+        height: 100px;
+        margin: auto;
+        margin-top: 5px;
+        display: block;
+      }
+      .goalkeepar {
+        width:25%;
+        height: 110px;
+        position: absolute;
+        top: 8%;
+        left: 37%;
+      }
+      .goalkeepar-left {
+        width:25%;
+        height: 110px;
+        position: absolute;
+        top: 8%;
+        left: 9%;
+      }
+      .goalkeepar-right {
+        width:25%;
+        height: 110px;
+        position: absolute;
+        top: 8%;
+        left: 63%;
+      }
+    }
+  }
+  .eria {
+    width: 95%;
+    height: 50px;
+    border-left: solid thin white;
+    border-right: solid thin white;
+    border-bottom: solid thin white;
+    margin: auto;
+    text-align: center;
+    .ball-frontleft {
+      width: 32%;
+      position: absolute;
+      left: 1%;
+      img {
+      display: inline-block;
+      width: 100%;
+    }
+    }
+    .ball-front {
+      width: 32%;
+      position: absolute;
+      left: 34%;
+      img {
+      display: inline-block;
+      width: 100%;
+    }
+    }
+    .ball-frontright {
+      width: 32%;
+      position: absolute;
+      left: 67%;
+      img {
+      display: inline-block;
+      width: 100%;
+    }
+    }
+    
+  }
+  .music {
+    width: 100%;
+    margin-top: 7%;
+    font-size: 55px;
+    text-align: center;
+  }
+  .ball {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    position: absolute;
+    bottom: 45%;
+    text-align: center;
+    .ball-left {
+      width: 32%;
+      display: inline-block;
+      position: absolute;
+      left: 1%;
+      img {
+      display: inline-block;
+      width: 100%;
+    }
+    }
+    .ball-middle {
+      width: 32%;
+      display: inline-block;
+      position: absolute;
+      left: 34%;
+      img {
+      display: inline-block;
+      width: 100%;
+    }
+    }
+    .ball-right {
+      width: 32%;
+      display: inline-block;
+      position: absolute;
+      left: 67%;
+      img {
+      display: inline-block;
+      width: 100%;
+    }
+    }
+  }
+  .modoru {
+    background-color: #e64461;
+    display: inline-block;
+    padding: 0 5px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    p {
+      margin: 0;
+    }
+  }
+  .scoa {
+    width: 70%;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    font-size: 0;
+    .scoa1 {
+      background-color: #42b89f;
+      display: inline-block;
+      text-align: center;
+      vertical-align: top;
+      p {
+        display: inline-block;
+        font-size: 12px;
+        padding: 25% 0;
+        margin: 0;
+      }
+    }
+    .scoa2 {
+      width: 25%;
+      padding: 7% 0;
+      margin: 0;
+      background-color: white;
+      display: inline-block;
+       vertical-align: top;
+    }
+    .scoa3 {
+     background-color: #42b89f;
+      display: inline-block;
+      text-align: center;
+      margin-left: 5%;
+      vertical-align: top;
+      p {
+        display: inline-block;
+        font-size: 12px;
+        padding: 25% 0;
+        margin: 0;
+      }
+    }
+    .scoa4 {
+      width: 25%;
+      padding: 7% 0;
+      margin: 0;
+      background-color: white;
+      display: inline-block;
+      
+    }
+  }
+  .zibunn {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    bottom: 1%;
+    img {
+      width: 100%;
+      display: inline-block;
+    }
+    .kakoi-left {
+      width: 32%;
+      display: inline-block;
+      margin-left: 1%;
+    }
+    .kakoi-middle {
+      display: inline-block;
+      width: 32%;
+    }
+    .kakoi-right {
+      display: inline-block;
+      width: 32%;
+    }
+  }
+}

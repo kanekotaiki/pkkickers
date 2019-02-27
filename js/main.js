@@ -56,7 +56,7 @@ function init(){
   $(".right").show();
   $(".middle").show();
   $(".music").show();
-  $(".music").html("シュート🔥!!");
+  $(".music").html("shoot🔥!!");
   $(".ball-middle").show();
   // 隠す
   $(".goalkeepar-left").hide();
