@@ -205,7 +205,7 @@ body {
   .pc {
     display: none;
   }
-    .pc1 {
+  .pc1 {
     display: none;
   }
   .aite {
@@ -285,7 +285,7 @@ body {
   .music {
     width: 100%;
     margin-top: 7%;
-    font-size: 55px;
+    font-size: 30px;
     text-align: center;
   }
   .ball {
@@ -357,11 +357,15 @@ body {
     }
     .scoa2 {
       width: 25%;
-      padding: 7% 0;
+      padding: 0;
       margin: 0;
       background-color: white;
       display: inline-block;
-       vertical-align: top;
+      vertical-align: top;
+      .ten1 {
+       font-size: 30px;
+       text-align: center;
+     }
     }
     .scoa3 {
      background-color: #42b89f;
@@ -378,11 +382,14 @@ body {
     }
     .scoa4 {
       width: 25%;
-      padding: 7% 0;
+      padding: 0;
       margin: 0;
       background-color: white;
       display: inline-block;
-      
+      .ten2 {
+       font-size: 30px;
+       text-align: center;
+     }
     }
   }
   .zibunn {

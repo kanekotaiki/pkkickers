@@ -181,7 +181,7 @@ body {
   .music {
     width: 100%;
     margin-top: 7%;
-    font-size: 55px;
+    font-size: 35px;
     text-align: center; }
 
   .ball {
@@ -225,49 +225,6 @@ body {
     text-align: center; }
     .modoru p {
       margin: 0; }
-
-  .scoa {
-    width: 80%;
-    position: absolute;
-    top: 0%;
-    left: 30%;
-    font-size: 0; }
-    .scoa .scoa1 {
-      width: 15%;
-      background-color: white;
-      display: inline-block;
-      text-align: center;
-      vertical-align: top; }
-      .scoa .scoa1 p {
-        display: inline-block;
-        font-size: 27px;
-        padding: 4% 0;
-        margin: 0; }
-    .scoa .scoa2 {
-      width: 25%;
-      padding: 7% 0;
-      margin: 0;
-      background-color: white;
-      display: inline-block;
-      vertical-align: top; }
-    .scoa .scoa3 {
-      width: 15%;
-      background-color: white;
-      display: inline-block;
-      text-align: center;
-      margin-left: 5%;
-      vertical-align: top; }
-      .scoa .scoa3 p {
-        display: inline-block;
-        font-size: 27px;
-        padding: 4% 0;
-        margin: 0; }
-    .scoa .scoa4 {
-      width: 25%;
-      padding: 7% 0;
-      margin: 0;
-      background-color: white;
-      display: inline-block; }
 
   .zibunn {
     width: 100%;

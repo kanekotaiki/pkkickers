@@ -56,7 +56,7 @@ function init(){
   $(".right").show();
   $(".middle").show();
   $(".music").show();
-  $(".music").html("シュート🔥!!");
+  $(".music").html("🔥shoot🔥");
   $(".ball-middle").show();
   // 隠す
   $(".goalkeepar-left").hide();
@@ -99,7 +99,7 @@ function move_left(){
       //ゴールに入らなかったので
       setTimeout(function() {
         $(".music").show();
-        $(".music").html("キーパーセーブ！！！");
+        $(".music").html("キーパーセーブ！");
        
         setTimeout(function() {
           init()
@@ -357,7 +357,7 @@ function move_center(){
       //ゴールに入らなかったので
       setTimeout(function() {
         $(".music").show();
-        $(".music").html("キーパーセーブ！！！");
+        $(".music").html("キーパーセーブ！");
         setTimeout(function() {
           total--;
           init()
@@ -461,7 +461,7 @@ function move_right(){
       //ゴールに入らなかったので
       setTimeout(function() {
         $(".music").show();
-        $(".music").html("キーパーセーブ！！！");
+        $(".music").html("キーパーセーブ！");
        
         setTimeout(function() {
           init()
