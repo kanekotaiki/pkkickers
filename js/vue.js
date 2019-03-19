@@ -2,12 +2,11 @@
 /* globals $, firebase, location, moment */
 // トップページのボタンを押した時の処理
 $(document).ready(function() {
-  
   $(".start2").click(function() {
-    window.location.href = ('index.html');
+    window.location.href = ('index1.html');
   })
   $(".modoru").click(function() {
-    window.location.href = ('toppage.html');
+    window.location.href = ('index.html');
   })
   $(".start3").click(function() {
     window.location.href = ("index2.html");
@@ -126,7 +125,7 @@ function move_left(){
             // }, 1800);
             // トップページに戻る
             setTimeout(function(){
-              window.location.href = 'toppage.html';
+              window.location.href = 'index.html';
             }, 6000);
           }
           
@@ -176,7 +175,7 @@ function move_left(){
             }, 2900);
             // トップページに戻る
             setTimeout(function(){
-              window.location.href = 'toppage.html';
+              window.location.href = 'index.html';
             }, 6000);
           }
         },2500)
@@ -226,7 +225,7 @@ function move_left(){
             }, 2900);
             // トップページに戻る
             setTimeout(function(){
-              window.location.href = 'toppage.html';
+              window.location.href = 'index.html';
             }, 6000);
           }
         }, 2500)
@@ -290,7 +289,7 @@ function move_center(){
             }, 2900);
             // トップページに戻る
             setTimeout(function(){
-              window.location.href = 'toppage.html';
+              window.location.href = 'index.html';
             }, 6000);
           }
         }, 2500);
@@ -340,7 +339,7 @@ function move_center(){
             }, 2900);
             // トップページに戻る
             setTimeout(function(){
-              window.location.href = 'toppage.html';
+              window.location.href = 'index.html';
             }, 6000);
           }
         }, 2500);
@@ -377,7 +376,7 @@ function move_center(){
             }, 2900);
             // トップページに戻る
             setTimeout(function(){
-              window.location.href = 'toppage.html';
+              window.location.href = 'index.html';
             }, 6000);
           }
         }, 2500);
@@ -444,7 +443,7 @@ function move_right(){
             // }, 1800);
             // トップページに戻る
             setTimeout(function(){
-              window.location.href = 'toppage.html';
+              window.location.href = 'index.html';
             }, 6000);
           }
         },2500)
@@ -488,7 +487,7 @@ function move_right(){
             // }, 1800);
             // トップページに戻る
             setTimeout(function(){
-              window.location.href = 'toppage.html';
+              window.location.href = 'index.html';
             }, 6000);
           }
           
@@ -539,7 +538,7 @@ function move_right(){
             // }, 1800);
             // トップページに戻る
             setTimeout(function(){
-              window.location.href = 'toppage.html';
+              window.location.href = 'index.html';
             }, 6000);
           }
         },2500)

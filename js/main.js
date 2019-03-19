@@ -18,10 +18,10 @@
 $(document).ready(function() {
   
   $(".start2").click(function() {
-    window.location.href = ('index.html');
+    window.location.href = ('index1.html');
   })
   $(".modoru").click(function() {
-    window.location.href = ('toppage.html');
+    window.location.href = ('index.html');
   })
   $(".start3").click(function() {
     window.location.href = ("index2.html");
