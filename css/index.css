@@ -1,248 +1,90 @@
 body {
-  background-color: #42b89f;
-  font-family: 'HoeflerText-Black',sans-serif; }
+  background-image: url("../img/toppage_img.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-@media (min-width: 426px) {
-  #sp {
+@media (min-width: 769px) {
+  .sp {
     display: none; }
 
-  .aite {
+  .game_way {
     width: 100%; }
-    .aite .aitenonaka {
+
+  .tops {
+    font-family: 'HoeflerText-Black',sans-serif; }
+    .tops .apuri_title {
+      width: 50%;
+      margin: auto;
+      text-align: center; }
+      .tops .apuri_title P {
+        width: 100%;
+        font-size: 73px;
+        padding: 150px 0 130px 0; }
+    .tops .rule {
+      width: 70%;
+      margin: auto;
+      margin-top: 100px;
+      font-size: 0;
+      text-align: center; }
+      .tops .rule .start {
+        width: 33%;
+        display: inline-block; }
+        .tops .rule .start img {
+          width: 100%; }
+      .tops .rule .sp {
+        display: none; }
+      .tops .rule .start2 {
+        width: 33%;
+        display: inline-block; }
+        .tops .rule .start2 img {
+          width: 100%; }
+      .tops .rule .start3 {
+        width: 33%;
+        display: inline-block; }
+        .tops .rule .start3 img {
+          width: 100%; } }
+@media (max-width: 768px) {
+  .pc {
+    display: none; }
+
+  .game_way {
+    width: 100%; }
+
+  .tops {
+    font-family: 'HoeflerText-Black',sans-serif; }
+    .tops .apuri_title {
       width: 90%;
       margin: auto;
-      height: 150px;
-      border-bottom: solid thin white; }
-    .aite .goal {
-      width: 60%;
-      height: 150px;
-      margin: auto;
-      margin-top: 5px;
-      display: block; }
-    .aite .goalkeepar {
-      width: 20%;
-      position: absolute;
-      top: 2%;
-      left: 40%; }
-    .aite .goalkeepar-left {
-      width: 20%;
-      position: absolute;
-      top: 2%;
-      left: 20%; }
-    .aite .goalkeepar-right {
-      width: 20%;
-      position: absolute;
-      top: 2%;
-      left: 58%; }
-
-  .eria {
-    width: 75%;
-    height: 100px;
-    border-left: solid thin white;
-    border-right: solid thin white;
-    border-bottom: solid thin white;
-    margin: auto;
-    text-align: center; }
-    .eria .ball-frontleft {
-      position: absolute;
-      left: 24%; }
-    .eria .ball-front {
-      position: absolute;
-      left: 42%; }
-    .eria .ball-frontright {
-      position: absolute;
-      left: 58%; }
-
-  .music {
-    width: 100%;
-    margin-top: 1%;
-    font-size: 65px;
-    text-align: center; }
-
-  .ball {
-    width: 60%;
-    margin: auto;
-    text-align: center; }
-    .ball .ball-left {
-      width: 10%;
-      display: inline-block;
-      position: absolute;
-      left: 25%;
-      position: absolute;
-      bottom: 21%; }
-    .ball .ball-middle {
-      width: 10%;
-      display: inline-block;
-      position: absolute;
-      left: 44%;
-      position: absolute;
-      bottom: 21%; }
-    .ball .ball-right {
-      width: 10%;
-      display: inline-block;
-      position: absolute;
-      left: 64%;
-      position: absolute;
-      bottom: 21%; }
-
-  .modoru {
-    background-color: #e64461;
-    display: inline-block;
-    padding: 20px;
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    text-align: center; }
-    .modoru p {
-      margin: 0; }
-
-  .zibunn {
-    width: 60%;
-    margin: auto;
-    position: absolute;
-    bottom: 1%;
-    left: 24%; }
-    .zibunn img {
-      width: 60%;
-      display: inline-block; }
-    .zibunn .kakoi-left {
-      width: 30%;
-      margin-left: 3%;
-      display: inline-block; }
-    .zibunn .kakoi-middle {
-      display: inline-block;
-      width: 30%; }
-    .zibunn .kakoi-right {
-      display: inline-block;
-      width: 30%; } }
-@media (max-width: 425px) {
-  .aite {
-    width: 100%;
-    margin-top: 13%; }
-    .aite .aitenonaka {
+      text-align: center; }
+      .tops .apuri_title P {
+        width: 100%;
+        font-size: 50px;
+        padding: 100px 0; }
+    .tops .rule {
       width: 100%;
-      height: 100px;
-      border-bottom: solid thin white; }
-      .aite .aitenonaka .goal {
-        width: 90%;
-        height: 100px;
-        margin: auto;
-        margin-top: 5px;
-        display: block; }
-      .aite .aitenonaka .goalkeepar {
-        width: 25%;
-        height: 110px;
-        position: absolute;
-        top: 8%;
-        left: 37%; }
-      .aite .aitenonaka .goalkeepar-left {
-        width: 25%;
-        height: 110px;
-        position: absolute;
-        top: 8%;
-        left: 9%; }
-      .aite .aitenonaka .goalkeepar-right {
-        width: 25%;
-        height: 110px;
-        position: absolute;
-        top: 8%;
-        left: 63%; }
+      margin: 70px auto 50px auto;
+      font-size: 0;
+      text-align: center;
+      vertical-align: top; }
+      .tops .rule .start {
+        width: 33%;
+        display: inline-block; }
+        .tops .rule .start img {
+          width: 100%;
+          height: 170px; }
+      .tops .rule .pc {
+        display: none; }
+      .tops .rule .start2 {
+        width: 33%;
+        display: inline-block; }
+        .tops .rule .start2 img {
+          width: 100%;
+          height: 170px; }
+      .tops .rule .start3 {
+        width: 33%;
+        display: inline-block; }
+        .tops .rule .start3 img {
+          width: 100%;
+          height: 170px; } }
 
-  .eria {
-    width: 95%;
-    height: 50px;
-    border-left: solid thin white;
-    border-right: solid thin white;
-    border-bottom: solid thin white;
-    margin: auto;
-    text-align: center; }
-    .eria .ball-frontleft {
-      width: 32%;
-      position: absolute;
-      left: 1%; }
-      .eria .ball-frontleft img {
-        display: inline-block;
-        width: 100%; }
-    .eria .ball-front {
-      width: 32%;
-      position: absolute;
-      left: 34%; }
-      .eria .ball-front img {
-        display: inline-block;
-        width: 100%; }
-    .eria .ball-frontright {
-      width: 32%;
-      position: absolute;
-      left: 67%; }
-      .eria .ball-frontright img {
-        display: inline-block;
-        width: 100%; }
-
-  .music {
-    width: 100%;
-    margin-top: 7%;
-    font-size: 35px;
-    text-align: center; }
-
-  .ball {
-    width: 100%;
-    margin: 0 auto 0 auto;
-    position: absolute;
-    bottom: 45%;
-    text-align: center; }
-    .ball .ball-left {
-      width: 32%;
-      display: inline-block;
-      position: absolute;
-      left: 1%; }
-      .ball .ball-left img {
-        display: inline-block;
-        width: 100%; }
-    .ball .ball-middle {
-      width: 32%;
-      display: inline-block;
-      position: absolute;
-      left: 34%; }
-      .ball .ball-middle img {
-        display: inline-block;
-        width: 100%; }
-    .ball .ball-right {
-      width: 32%;
-      display: inline-block;
-      position: absolute;
-      left: 67%; }
-      .ball .ball-right img {
-        display: inline-block;
-        width: 100%; }
-
-  .modoru {
-    background-color: #e64461;
-    display: inline-block;
-    padding: 0 5px;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    text-align: center; }
-    .modoru p {
-      margin: 0; }
-
-  .zibunn {
-    width: 100%;
-    margin: auto;
-    position: absolute;
-    bottom: 1%; }
-    .zibunn img {
-      width: 100%;
-      display: inline-block; }
-    .zibunn .kakoi-left {
-      width: 32%;
-      display: inline-block;
-      margin-left: 1%; }
-    .zibunn .kakoi-middle {
-      display: inline-block;
-      width: 32%; }
-    .zibunn .kakoi-right {
-      display: inline-block;
-      width: 32%; } }
-
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=toppage.css.map */
